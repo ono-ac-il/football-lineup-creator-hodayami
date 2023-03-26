@@ -64,3 +64,16 @@ const mappeForwards = forwards.map(function (item) {
 document.getElementById('st1').innerHTML = mappeForwards.join('');
 document.getElementById('st2').innerHTML = mappeForwards.join('');
 document.getElementById('st3').innerHTML = mappeForwards.join('');
+
+const btn= document.getElementById("s")
+function con(){
+    console.log (" " + document.getElementById('pos1').value + " " + 
+    document.getElementById('def1').value + " "
+     +document.getElementById('def2').value + " " + document.getElementById('def3').value + " " + 
+     document.getElementById('def4').value + " " + document.getElementById('def5').value + " " +
+     document.getElementById('mid1').value + " " + document.getElementById('mid2').value+ " " +
+      document.getElementById('mid3').value + " " + document.getElementById('mid4').value + " " + 
+      document.getElementById('mid5').value + " " + document.getElementById('st1').value + " " + 
+      document.getElementById('st2').value + " " + document.getElementById('st3').value + " ")
+}
+btn.addEventListener("click", con )
